@@ -19,7 +19,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">PRBSparameters.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../PRBSparameters.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#PKQ!!!"5!A!!!!!!'!!N!"!!%=W6F:!!!$5!%!!&gt;T97VQ&lt;'6T!"&gt;!!Q!2&gt;8"T97VQ&lt;'FO:S"G97.U&lt;X)!&amp;U!$!""Q&lt;WRZ&lt;G^N;7&amp;M)'^S:'6S!!!71&amp;!!"!!!!!%!!A!$"U.M&gt;8.U:8)!/Q$R!!!!!!!!!!%35&amp;*#5X"B=G&amp;N:82F=H-O9X2M!#"!1!!"`````Q!%$V"31F-A5'&amp;S97VF&gt;'6S=Q!"!!5!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$!P!!!!"5!A!!!!!!(!!N!"!!%=W6F:!!!$5!%!!&gt;T97VQ&lt;'6T!"&gt;!!Q!2&gt;8"T97VQ&lt;'FO:S"G97.U&lt;X)!&amp;U!$!""Q&lt;WRZ&lt;G^N;7&amp;M)'^S:'6S!!!01!I!#5&amp;N='RJ&gt;(6E:1!91&amp;!!"1!!!!%!!A!$!!1(1WRV=X2F=A!\!0%!!!!!!!!!!2*15E*4='&amp;S97VF&gt;'6S=SZD&gt;'Q!)%"!!!(`````!!505&amp;*#5S"198*B&lt;76U:8*T!!%!"A!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Setpoints" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
