@@ -30,18 +30,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Control" Type="Folder">
+			<Item Name="PRBScontrol.ctl" Type="VI" URL="../PRBScontrol.ctl"/>
+			<Item Name="PRBSparameters.ctl" Type="VI" URL="../PRBSparameters.ctl"/>
+			<Item Name="Setpoints.ctl" Type="VI" URL="../Setpoints.ctl"/>
 			<Item Name="SMHostEnum.ctl" Type="VI" URL="../SMHostEnum.ctl"/>
 			<Item Name="Tanque.ctl" Type="VI" URL="../Tanque.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Conversão parametros PRBS.vi" Type="VI" URL="../Conversão parametros PRBS.vi"/>
+			<Item Name="Identificação MIMO.vi" Type="VI" URL="../Identificação MIMO.vi"/>
 			<Item Name="Logging_PathConfig.vi" Type="VI" URL="../Logging_PathConfig.vi"/>
+			<Item Name="PRBSgenerator.vi" Type="VI" URL="../PRBSgenerator.vi"/>
 		</Item>
 		<Item Name="Test VIs" Type="Folder" URL="../Test VIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Ferramenta de identificação.vi" Type="VI" URL="../Ferramenta de identificação.vi"/>
+			<Item Name="Identificação MIMO (extended).vi" Type="VI" URL="../Identificação MIMO (extended).vi"/>
 		</Item>
 		<Item Name="IdentificaçãoHost.vi" Type="VI" URL="../IdentificaçãoHost.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -388,15 +394,10 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
 			<Item Name="Adiciona_valor_inicial.vi" Type="VI" URL="../Adiciona_valor_inicial.vi"/>
-			<Item Name="Identificação MIMO.vi" Type="VI" URL="../Identificação MIMO.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PRBScontrol.ctl" Type="VI" URL="../PRBScontrol.ctl"/>
-			<Item Name="PRBSgenerator.vi" Type="VI" URL="../PRBSgenerator.vi"/>
-			<Item Name="PRBSparameters.ctl" Type="VI" URL="../PRBSparameters.ctl"/>
-			<Item Name="Setpoints.ctl" Type="VI" URL="../Setpoints.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
