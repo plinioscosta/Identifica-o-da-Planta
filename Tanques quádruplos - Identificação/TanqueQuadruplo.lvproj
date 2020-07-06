@@ -36,6 +36,9 @@
 			<Item Name="SMHostEnum.ctl" Type="VI" URL="../SMHostEnum.ctl"/>
 			<Item Name="Tanque.ctl" Type="VI" URL="../Tanque.ctl"/>
 		</Item>
+		<Item Name="Global Variable" Type="Folder">
+			<Item Name="GV Config.vi" Type="VI" URL="../GV Config.vi"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Conversão parametros PRBS.vi" Type="VI" URL="../Conversão parametros PRBS.vi"/>
 			<Item Name="Formatacao de Waveform.vi" Type="VI" URL="../Formatacao de Waveform.vi"/>
@@ -1183,6 +1186,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TanqueQuadruplo_FPGATarget_FPGAmain_2eouoVfTWZU.lvbitx" Type="Document" URL="../FPGA Bitfiles/TanqueQuadruplo_FPGATarget_FPGAmain_2eouoVfTWZU.lvbitx"/>
+			<Item Name="GV Config.vi" Type="VI" URL="../GV Config.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
